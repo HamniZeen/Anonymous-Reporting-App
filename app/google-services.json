@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "711022847501",
+    "project_id": "thedenguemaster",
+    "storage_bucket": "thedenguemaster.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:711022847501:android:de0d230157429031c45744",
+        "android_client_info": {
+          "package_name": "com.example.denguemaster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "711022847501-a8lj8g8ur8p0bjjkehj4ff1p5af2naff.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDA1OIxFYlpcXNnGXWqDK13FhloUK2OjuU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "711022847501-a8lj8g8ur8p0bjjkehj4ff1p5af2naff.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
