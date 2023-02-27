@@ -18,37 +18,44 @@
         android:layout_marginBottom="16dp"
         android:background="@drawable/btn_round"
         android:backgroundTint="@color/black"
+        android:foregroundTint="#070707"
         android:paddingBottom="20px"
         android:text="Get Started"
         android:textColor="@color/white"
-        android:textSize="60px"
+        android:textSize="45px"
         android:textStyle="bold"
         android:visibility="visible" />
 
+
     <ImageView
-        android:layout_width="408dp"
-        android:layout_height="275dp"
+        android:layout_width="wrap_content"
+        android:layout_height="623dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_centerInParent="true"
         android:layout_marginStart="0dp"
-        android:layout_marginTop="185dp"
-        android:layout_marginEnd="3dp"
-        app:srcCompat="@drawable/m" />
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="6dp"
+        app:srcCompat="@drawable/img_10" />
 
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="97dp"
+        android:layout_width="wrap_content"
+        android:layout_height="639dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
         android:layout_marginStart="0dp"
-        android:text="Welcome to The Dengue Master"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="-9dp"
+        android:layout_marginBottom="0dp"
+        android:text="Hello There!"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:textSize="100px"
+        android:textSize="75px"
         android:textStyle="bold" />
 
 

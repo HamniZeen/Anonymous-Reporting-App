@@ -28,6 +28,9 @@ public class describe extends AppCompatActivity {
                 String no="+94728378365";
                 String msg="Alert location:https://console.firebase.google.com/project/thedenguemaster/database/thedenguemaster-default-rtdb/data";
 
+                String mapLink = "Alert location: https://www.google.com/maps/search/?api=1&query=" + 7.35944+ "," + 81.7845;
+                String senderName = "Dengue Location Alert";
+
 
                 //Getting intent and PendingIntent instance
                 Intent intent=new Intent(getApplicationContext(),MainActivity4.class);
@@ -35,7 +38,10 @@ public class describe extends AppCompatActivity {
 
                 //Get the SmsManager instance and call the sendTextMessage method to send message
                 SmsManager sms=SmsManager.getDefault();
-                sms.sendTextMessage(no, null, msg, pi,null);
+
+                intent.putExtra("EXTRA_SENDER",senderName);
+                sms.sendTextMessage(no, null, mapLink, pi,null);
+
 
                 Toast.makeText(getApplicationContext(), "Message Sent successfully!",
                         Toast.LENGTH_LONG).show();

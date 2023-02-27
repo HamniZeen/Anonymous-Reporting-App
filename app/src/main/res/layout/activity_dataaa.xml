@@ -19,15 +19,15 @@
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="258dp"
-        android:layout_height="61dp"
+        android:layout_width="219dp"
+        android:layout_height="71dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="5dp"
+        android:layout_marginStart="0dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="192dp"
-        android:text="Capture Photo"/>
+        android:text="Choose Photo" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -43,27 +43,31 @@
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="175dp"
-        android:layout_height="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="314dp"
-        android:layout_marginEnd="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="463dp"
+        android:layout_marginEnd="48dp"
         android:text="Add Location"
         android:textAlignment="center" />
 
     <EditText
         android:id="@+id/editTextTextPostalAddress"
         android:layout_width="404dp"
-        android:layout_height="106dp"
+        android:layout_height="103dp"
+        android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="99dp"
+        android:layout_marginStart="-2dp"
+        android:layout_marginBottom="207dp"
         android:ems="10"
         android:hint="Add Description"
-        android:inputType="textPostalAddress" />
+        android:inputType="textPostalAddress"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/button9"
@@ -71,20 +75,20 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="84dp"
+        android:layout_marginStart="110dp"
         android:layout_marginEnd="100dp"
-        android:layout_marginBottom="55dp"
+        android:layout_marginBottom="167dp"
 
         android:text="Submit" />
 
     <Button
         android:id="@+id/button10"
-        android:layout_width="242dp"
-        android:layout_height="62dp"
+        android:layout_width="212dp"
+        android:layout_height="76dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="213dp"
+        android:layout_marginStart="199dp"
         android:layout_marginTop="42dp"
         android:layout_marginEnd="0dp"
         android:text="Insert from Gallery" />
